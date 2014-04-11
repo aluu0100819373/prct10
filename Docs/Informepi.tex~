@@ -1,0 +1,86 @@
+\documentclass[spanish,a4paper,10pt]{article}
+
+\usepackage{latexsym,amsfonts,amssymb,amstext,amsthm,float,amsmath}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{epsfig}
+\usepackage{doc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%123456789012345678901234567890123456789012345678901234567890123456789
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\textheight 29cm
+%\textwidth 15cm
+%\topmargin -4cm
+%\oddsidemargin 5mm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+\includegraphics[width=0.2\textwidth]{logotipo-secundario-ULL}\\[0.25cm]
+\end{center}
+
+\begin{center}
+        {\Huge El numero $\pi$} \\[2.5mm] 
+        {\Large  Francisco Javier Reyes Sánchez} \\[5mm]
+
+
+        {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ cuatrimestre} \\[5mm]
+        Lenguajes y Sistemas Informáticos \\[5mm]
+        Facultad de Matemáticas \\[5mm]
+        
+        Universidad de La Laguna \\
+\end{center}
+
+\begin{abstract}%Resumen
+\t Es una de las constantes matemáticas que más aparece. Tal vez por ello es la  constante que más pasiones desata entre los matemáticos.  Lo cierto es que sólo cuatro decimales de $\Pi$ bastan para las necesidades prácticas.  Con 16 decimales se obtiene el error del espesor de un cabello, la longitud de una circunferencia que tenga por radio la distancia de la tierra al sol.
+\t Además si emplazamos el sol por la nebulosa más lejana y el cabello por el corpúsculo más pequeño conocido por los físicos, no harían falta más de 40 decimales.
+\end{abstract}
+
+%\thispagestyle{empty}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Significado del número $\pi$}
+\t El número $\pi$ es una relación matemática derivada de los círculos. Tomando un círculo cualquiera, la división entre el perimetro de la misma y su diámetro, siempre da el mismo resultado: el número $\pi$.
+
+\t Las primeras aproximaciones al cálculo del número $\pi$ fueron llevadas a cabo por los babilonios en torno al siglo 20 a.C, los cuales se percataron que la circunferencia de un círculo tenía aproximadamente tres veces su diámetro. Sin embargo, fue Arquímedes de Siracusa quien realmente inició la teoría matemática del numero $\pi$ en el año 225 a.C
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Importancia Matemática}
+\t Es un número irracional y una de las constantes matemáticas más importantes. Se emplea frecuentemente en matemáticas, física e ingeniería. El valor numérico de $\pi$, truncado a sus primeras cifras, es el siguiente: 3,14159265358979323846 
+
+El valor de $\pi$ se ha obtenido con diversas aproximaciones a lo largo de la historia, siendo una de las constantes matemáticas que más aparece en las ecuaciones de la física, junto con el número e. Cabe destacar que el cociente entre la longitud de cualquier circunferencia y la de su diámetro no es constante en geometrías no euclídeas.
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\subsection{Historia}
+\t El matemático griego Arquímedes (siglo III a. C.) fue capaz de determinar el valor de ? entre el intervalo comprendido por 3 10/71, como valor mínimo, y 3 1/7, como valor máximo. Arquímedes empezó con hexágonos circunscritos e inscritos, y fue doblando el número de lados hasta llegar a polígonos de 96 lados.
+\t Alrededor del año 20 d. C., el arquitecto e ingeniero romano Vitruvio calcula $\pi$ como el valor fraccionario 25/8 midiendo la distancia recorrida en una revolución por una rueda de diámetro conocido.
+\cite{URL:HTTP}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\subsection{Aproximaciones}
+
+Es posible obtener una aproximación al valor de $\pi$ de forma geométrica. De hecho, ya los griegos intentaron obtener sin éxito una solución exacta al problema del valor de $\pi$ mediante el empleo de regla y compás. El problema griego conocido como cuadratura del círculo o, lo que es lo mismo, obtener un cuadrado de área igual al área de un círculo cualquiera, lleva implícito el cálculo del valor exacto de $\pi$
+
+\t Diferentes valores de $\pi$ en intervalos calculados en practicas anteriores 
+\begin{footnotesize}
+\begin{verbatim}
+Introduzca el número de intervalos (n > 0): 4
+Subintervalo: [0 , 0.25] x_i: 0.125 fx_i: 3.93846
+Subintervalo: [0.25, 0.5 ] x_i: 0.375 fx_i: 3.50685
+Subintervalo: [0.5 , 0.75] x_i: 0.625 fx_i: 2.8764
+Subintervalo: [0.75, 1 ] x_i: 0.875 fx_i: 2.26549
+
+El valor aproximado de PI es: 3.14680051839
+El valor de PI con 35 decimales: 3.1415926535897931159979634685441852 \end{verbatim}
+\end{footnotesize}
+\cite{URL:HTTP}
+%\begin{thebibliography}{1}
+%\bibitem{python} Tutorial de Python. http://docs.python.org/2/tutorial/
+%\end{thebibliography}
+\bibliographystyle{plain}
+
+
+\bibliography{Informepi}
+\nocite{*}
+\end{document}
